@@ -122,8 +122,20 @@ button.watch:hover {
     background-color: #282730;
     margin-left: -10px;
     margin-right: -10px;
+    height: 300px;
     padding: 20px;
     display: flex;
     align-items: center;
-    
+    justify-content: center;
+}
+.quote {
+    font-family: 'arcane_nineregular';
+    font-size: 32px;
+    color: #8a8255;
+}
+.viktor {
+    font-family: 'arcane_nineregular';
+    font-size: 28px;
+    color: rgb(235, 231, 199);
+    margin-top: 100px;
 }
