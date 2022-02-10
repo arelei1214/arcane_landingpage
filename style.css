@@ -139,7 +139,6 @@ button.watch:hover {
     color: rgb(235, 231, 199);
     margin-top: 100px;
 }
-/* call page */
 .callpage {
     background-color: #1d1c25;
     display: flex;
@@ -152,7 +151,39 @@ button.watch:hover {
     padding-right: 100px;
 }
 .bluebox {
+    background-color: #282730;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    gap: 16px;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    
+}
+button.now {
+    position: relative;
     background-color: royalblue;
-    max-width: 500px;
-    height: auto;
+    border: 1px solid royalblue;
+    color: white;
+    flex-shrink: 0;
+}
+.arcane {
+    font-family: 'arcane_nineregular';
+    color:#8a8255;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    width: 200px;
+}
+.lasttext {
+    width: 300px;
+    color: #9b9992;
+}
+.bbox {
+    max-width: 200px;
+    margin-right: 300px;
 }
