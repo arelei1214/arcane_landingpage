@@ -156,7 +156,7 @@ button.watch:hover {
     border-radius: 10px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
     gap: 16px;
-    padding: 16px;
+    padding: 20px;
     align-items: center;
     justify-content: center;
     
@@ -182,8 +182,23 @@ button.now {
 .lasttext {
     width: 300px;
     color: #9b9992;
+    font-family: 'arcane_nineregular';
 }
 .bbox {
     max-width: 200px;
     margin-right: 300px;
+    padding-left: 20px;
+}
+.footer {
+    background-color: #282730;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -10px;
+    padding: 20px;
+}
+.footertext {
+    font-family: 'arcane_nineregular';
+    font-size: 32px;
+    color: #8a8255;
 }
