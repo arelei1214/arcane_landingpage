@@ -29,7 +29,7 @@ h1 {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 12px;
+    gap: 20px;
     padding-right: 20px;
     padding-left: 20px;
     font-family: 'arcane_nineregular';
@@ -171,13 +171,9 @@ button.now {
 .arcane {
     font-family: 'arcane_nineregular';
     color:#8a8255;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 8px;
-    width: 200px;
 }
 .lasttext {
     width: 300px;
@@ -185,10 +181,13 @@ button.now {
     font-family: 'arcane_nineregular';
 }
 .bbox {
-    max-width: 200px;
     margin-right: 300px;
     padding-left: 20px;
 }
+button.now:hover {
+    background: #2c4fb6;
+}
+/* footer section */
 .footer {
     background-color: #282730;
     display: flex;
