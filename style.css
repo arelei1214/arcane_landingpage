@@ -49,6 +49,7 @@ a {
     align-items: center;
     gap: 16px;
   }
+
 /* page */
 .page {
     display: flex;
@@ -88,6 +89,7 @@ button.watch {
 button.watch:hover {
     background: #2c4fb6;
 }
+
 /* characters */
 .charimg {
     max-height: 200px;
@@ -105,9 +107,7 @@ button.watch:hover {
 .bigcontainer {
     display: flex;
     gap: 52px;
-    margin-left: 300px;
-    width: 200px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .mincontain {
